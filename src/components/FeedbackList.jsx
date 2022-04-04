@@ -6,7 +6,7 @@ function FeedbackList({feedback, handleDelete}) {
     return <p>No feedback yet</p>
   }
   return (
-    <div className='feedback-list'>List
+    <div className='feedback-list'>
     {feedback.map((item) => (
       <FeedbackItem key={item.id} item={item}
       handleDelete={handleDelete} />
