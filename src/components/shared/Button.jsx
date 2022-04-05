@@ -3,7 +3,7 @@ import React from 'react'
 
 function Button({ children, version, type, isDisabled }) {
   return (
-    <button type={type} isDisabled={isDisabled} className={`btn btn-${version}`}>Button</button>
+    <button type={type} isDisabled={isDisabled} className={`btn btn-${version}`}>Send</button>
   )
 }
 
