@@ -4,6 +4,7 @@ import React from 'react'
 
 function AboutIconLink() {
   return (
+    // to add links to the add page
     <div className='about-link'>
       <Link to={{
         pathname: '/about',
